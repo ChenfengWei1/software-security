@@ -1,5 +1,12 @@
 # Webserver以及SQL注入实验
 
+# 实验内容
+
+* 搭建简易Webserver
+  * http.sever
+  * apache
+* 实现简单的sql注入
+
 # 0. 简易Webserver
 
 ## 概念
