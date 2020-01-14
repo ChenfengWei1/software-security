@@ -1,13 +1,4 @@
----
-title: 缓冲区溢出-原理探究实验
-tags:
-  - sec
-categories:
- - 安全
- - 软件开发安全
-abbrlink: c80da54a
-date: 2019-12-31 09:50:07
----
+ # 缓冲区溢出-原理探究实验
 
 # 实验目的
 
@@ -48,7 +39,6 @@ date: 2019-12-31 09:50:07
 > * For example, if a subroutine named DrawLine is currently running, having been called by a subroutine DrawSquare, the top part of the call stack might be laid out like in the adjacent picture. 
 
 <center><img src="./缓冲区溢出-原理探究实验/stack.png" height=250px></center>
-
 ### 补充
 
 **缓冲区溢出与堆栈的关系**
@@ -164,7 +154,6 @@ int main(int argc, char** argv)
 * 测试输入`1234567891010789790`
   
   <center><img src="./缓冲区溢出-原理探究实验/wrong.png" height=200px></center>
-  
   * 可以看到执行字符串拷贝函数后，`EBP`元贝的内容被覆盖了
 
 # 参考资料
