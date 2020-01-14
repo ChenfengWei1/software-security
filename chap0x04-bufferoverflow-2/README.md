@@ -1,14 +1,4 @@
----
-title: 缓冲区溢出-漏洞利用
-tags:
-  - sec
-categories:
- - 安全
- - 软件开发安全
-password: happynewyear
-abbrlink: 4569b1c4
-date: 2019-12-31 17:40:34
----
+# 缓冲区溢出-漏洞利用
 
 # 实验目的
 
