@@ -1,0 +1,26 @@
+{% extends "bootstrap/base.html" %}
+{%block title %}Flask_Home{% endblock %}
+{%block body %}
+{% block scripts %}
+<script src="{{bootstrap_find_resource('jquery.js', cdn='jquery')}}"></script>
+<script src="{{bootstrap_find_resource('js/bootstrap.js', cdn='bootstrap')}}"></script>
+{%- endblock scripts %}
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    div.jumbotron {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+</style>
+<div class="jumbotron">
+    <div class="container" align="center">
+        <a href="{{url}}" target="_blank">你喜欢的网页是：{{name}}</a>
+    </div>
+</div>
+
+{%- endblock body %}
