@@ -80,6 +80,8 @@ PDB
 **找不到`ntdll.pdb`**
 
 <center><img src="./winDBG实验/6.png" height=150px></center>
+
+
 **解决**
 
 * 联网，(自动)从`https://msdl.microsoft.com/download/symbols`下载
